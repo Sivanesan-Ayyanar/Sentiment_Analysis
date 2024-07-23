@@ -1,0 +1,65 @@
+The side-mounted ISG can be realized using the conventional
+generator of today’s vehicle. With the addition of position
+sensors and a three-phase inverter, the generator can be operated
+as a motor and can provide enough torque through the belt to
+the combustion engine to perform a fast and quiet restart for a
+warmed-up engine. On smaller engines, it is possible to cold
+crank the engine, eliminating the conventional starter. Further
+improvements in the generator and power electronics technology will increase the system efficiency, the power generation,
+and the cranking torque to fulfill future requirements and also
+allow the cold cranking of larger engines. The benefits of this
+system are: 1) low cost; 2) simple implementation; 3) minimal
+changes in the electrical system; and 4) use of the present beltdriven machine. The electronic system consists of a three-phase
+MOSFET bridge inverter with the associated gate drives and
+control electronics. Although the normal generation current is
+much lower, the power electronics need to be designed for
+higher starting currents. The packaging and the cooling of the
+devices need special consideration.
+The Saturn Vue hybrid vehicle by General Motors is a typical
+example of a belt-driven starter–generator system. Saturn Vue’s
+hybrid system reduces fuel consumption by:
+• shutting off the engine when the vehicle is stopped to
+minimize idling;
+• restarting the engine promptly when the brake pedal is
+released;
+• enabling early fuel shutoff during vehicle deceleration;
+• capturing vehicle kinetic energy during deceleration
+(regenerative braking) to charge an advanced nickel-metal
+hydride battery;
+• performing intelligent battery charging when it is most
+efficient.
+III. PHEVS
+PHEVs have been considered as a significant advancement
+of the hybrid vehicle technology in both the industry and the
+academia [7] and even by various government agencies around
+the world. PHEVs have a battery pack of high energy density
+that can be externally charged and, hence, can run solely on
+electric power for a range longer than regular HEVs, resulting
+in a better MPG [8]–[12]. The battery pack can be recharged
+by a neighborhood ac outlet charger or in the garage. PHEVs
+improve the utilization of utility power because the charging of
+the batteries is done during nighttime.
+A representative architecture of a plug-in parallel hybrid vehicle architecture is shown in Fig. 5. The conversion of conventional HEVs into PHEVs is being tried as a transient technology
+in many companies in order to enhance the efficiency of HEVs.
+Moreover, auto manufacturers are considering and preparing
+for the introduction of PHEVs into the commercial market. The
+conversion is achieved either by adding a high-energy battery
+pack or by replacing the existing battery pack of HEVs in order
+to extend the all-electric range. In either case, the high-energy
+battery pack must be able to store enough electrical energy from
+external charging as well as from regenerative braking and must
+be able to supply the stored electrical energy to a traction motor
+system. AC outlet charging should inevitably need a battery
+charger composed of an ac–dc converter with power factor
+correction (PFC) and a programmable digital controller with
+a proper voltage–current profile for high-energy battery packs.
+A bidirectional dc–dc converter and charge–discharge profile is
+also necessary so as to transfer energy between the battery and
+the traction motor system.
+To make PHEVs available to consumers, there are several
+issues to be addressed. For example, the stability of utility
+power with regard to using a great number of high-power
+battery chargers with PFC at the same time and the choice,
+safety, thermal management, and cell-balancing of high-energy
+batteries such as NiMH and lithium batteries for automotive
+applications are some of the important issues [13]–[29].
